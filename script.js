@@ -34,17 +34,17 @@ document
     }
   });
 
-window.addEventListener("load", function () {
-  const loadingScreen = document.getElementById("loading");
+// window.addEventListener("load", function () {
+//   const loadingScreen = document.getElementById("loading");
 
-  setTimeout(() => {
-    loadingScreen.classList.add("hidden");
+//   setTimeout(() => {
+//     loadingScreen.classList.add("hidden");
 
-    setTimeout(() => {
-      loadingScreen.style.display = "none";
-    }, 500);
-  }, 3000);
-});
+//     setTimeout(() => {
+//       loadingScreen.style.display = "none";
+//     }, 500);
+//   }, 3000);
+// });
 
 // Dark mode toggle
 const toggleDarkModeButton = document.getElementById("dark-mode-toggle");
